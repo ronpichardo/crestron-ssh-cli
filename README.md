@@ -16,9 +16,11 @@ Usage:
 $ python3 main.py [OPTIONS] <filename>.csv flag=<all|update>
 ```
 OPTIONS:
+```shell
 -v, --version - get version of devices provided into the csv file
 -ch, --check-ports - gets the status of ports, returns if the port is on/off for webserver, ftpserver, ctpconsole, telnet
 -cl, --close-ports - close ports if they are on/enabled for ftpserver, ctpconsole, telnet
+```
 
 FLAG:
 all - a flag set for the close-ports option, to include the shutdown of the webserver
